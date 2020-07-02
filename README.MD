@@ -1,0 +1,1 @@
+﻿# A useful tool for hearthstone battlegrounds
