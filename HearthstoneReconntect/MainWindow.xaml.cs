@@ -77,7 +77,8 @@ namespace HearthstoneReconntect
                 string hs_path = FindHearthstoneProcess();
                 Model.AddLog(string.Format(Application.Current.FindResource("FindHearthstoneLogTemplate").ToString(), hs_path));
                 Model.HearthstonePath = hs_path;
-                
+
+                AddFirewallRule();
             }
             catch (Exception exception)
             {
@@ -104,10 +105,9 @@ namespace HearthstoneReconntect
             Dispatcher.Invoke(() => { Model.AddLog(string.Format(Application.Current.FindResource("ReconnectLogText").ToString(), Model.Delay)); });
         }
 
-        private void AddFirewallRule(object sender, EventArgs e)
+        private void AddFirewallRule()
         {
             RunCmd(Model.AddFirewallRuleCmd);
-
             Model.AddLog(Application.Current.FindResource("AddFirewallRuleText").ToString());
         }
 
@@ -129,6 +129,10 @@ namespace HearthstoneReconntect
                         TryFindHearthstoneProcess();
                         break;
                 }
+            }
+            else
+            {
+                TryFindHearthstoneProcess();
             }
         }
 

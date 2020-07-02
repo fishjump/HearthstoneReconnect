@@ -6,7 +6,6 @@
         xmlns:local="clr-namespace:HearthstoneReconntect"
         mc:Ignorable="d"
         Title="{StaticResource WinTitleText}" Height="360" Width="240"
-        Initialized="AddFirewallRule"
         Closed="RemoveFirewallRule">
     <Grid>
         <Grid.RowDefinitions>
