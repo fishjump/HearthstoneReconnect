@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="WinTitle">Hearthstone Reconnect</sys:String>
+    <sys:String x:Key="ReconnectButtonText">Reconnect</sys:String>
+    <sys:String x:Key="ClearLogButtonText">ClearLog</sys:String>
+    <sys:String x:Key="DelayTextboxText">Delay(s):</sys:String>
+    <sys:String x:Key="WarningLogText">Use at your own risk</sys:String>
+    <sys:String x:Key="FindHearthstoneLogTemplate">Find hearthstone at {0}</sys:String>
+    <sys:String x:Key="CannotFindHearthstoneLogTemplate">Cannot find hearthstone: {0}</sys:String>
+    <sys:String x:Key="DisconnectLogTemplate">Disconnected. Hearthstone will be reconnected in {0} seconds</sys:String>
+    <sys:String x:Key="ReconnectLogText">Reconnected.</sys:String>
+    <sys:String x:Key="AddFirewallRuleText">Added temporary firewall rule.This will be removed when this program exits.</sys:String>
+    <sys:String x:Key="RemoveFirewallRuleText">The temporary firewall rule is removed.</sys:String>
+    <sys:String x:Key="EnsureRefindHearthstoneProcessMessageboxText">It seems that the hearthstone process was already found.\n\rYou don't need to find again.Do you want to find again anyway?</sys:String>
+    <sys:String x:Key="TooManyHearthstoneProcessesExceptionText">multiple hearthstone processes are found.</sys:String>
+    <sys:String x:Key="NoHearthstoneProcessExceptionText">cannot find the hearthstone process.</sys:String>
+</ResourceDictionary>

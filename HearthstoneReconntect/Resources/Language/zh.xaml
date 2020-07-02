@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <sys:String x:Key="WinTitleText">炉石整活插件</sys:String>
+    <sys:String x:Key="ReconnectButtonText">整活</sys:String>
+    <sys:String x:Key="ClearLogButtonText">清空日志</sys:String>
+    <sys:String x:Key="DelayTextboxText">延迟 (s)：</sys:String>
+    <sys:String x:Key="FindHeartstoneProcessButtonText">查找炉石进程</sys:String>
+    <sys:String x:Key="WarningLogText">这是一个炉石传说的第三方程序，因此使用时自己承担可能的风险。</sys:String>
+    <sys:String x:Key="FindHearthstoneLogTemplate">在{0}找到炉石传说。</sys:String>
+    <sys:String x:Key="CannotFindHearthstoneLogTemplate">无法找到炉石传说: {0}</sys:String>
+    <sys:String x:Key="DisconnectLogTemplate">已断开连接. 炉石将会在{0}秒后重连。</sys:String>
+    <sys:String x:Key="ReconnectLogText">已重连。</sys:String>
+    <sys:String x:Key="AddFirewallRuleText">添加了临时防火墙规则，这个规则将会在程序关闭时被清除。</sys:String>
+    <sys:String x:Key="RemoveFirewallRuleText">临时防火墙被清除。</sys:String>
+    <sys:String x:Key="EnsureRefindHearthstoneProcessMessageboxText">现在已经找到了炉石传说，你不需要重新寻找炉石传说。\n\r不管怎样还是要重新寻找吗？</sys:String>
+    <sys:String x:Key="TooManyHearthstoneProcessesExceptionText">找到了多个炉石传说进程。</sys:String>
+    <sys:String x:Key="NoHearthstoneProcessExceptionText">无法找到炉石传说进程。</sys:String>
+</ResourceDictionary>
